@@ -1,0 +1,20 @@
+:root {
+    --color-primary: #212529;
+}
+
+.slick-slide {
+    margin: 0 5px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: var(--color-primary);
+    font-size: 1.6rem;
+}
+
+
+.ui-state-active {
+    background-color: var(--color-primary);
+    border: none;
+}
